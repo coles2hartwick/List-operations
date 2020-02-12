@@ -1,11 +1,16 @@
 # Sam Cole
 # This is the runner
 import ListAssignment
-numbers = [5, 6, 7, 5, 9]
+
+first = int(input("Please enter a whole number"))
+second = int(input("Please enter a whole number"))
+third = int(input("Please enter a whole number"))
+fourth = int(input("Please enter a whole number"))
+fifth = int(input("Please enter a whole number"))
+numbers = [first, second, third, fourth, fifth]
 
 numbers.sort()
-print(numbers)
-print(f"ListAssignment.sumlist(numbers))
+print(f"The sum of the list is {ListAssignment.sumlist(numbers)}")
 print(f"The product of the list is {ListAssignment.productlist(numbers)}")
 print(f"The mean is {ListAssignment.meanlist(numbers)}")
 print(f"The median is {ListAssignment.medainlist(numbers)}")
