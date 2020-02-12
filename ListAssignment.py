@@ -87,8 +87,7 @@ def noodd(numbers):
     count = 0
     for number in numbers:
         if number % 2 != 0:
-            numbers.remove(number)
-            #del numbers[count]
+            del numbers[count]
         count = count + 1
     return numbers
 
